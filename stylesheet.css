@@ -1,0 +1,649 @@
+	
+	
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*UNIVERSAL PROPERTIES*/
+	/*website dimension: 1400px*/
+	  * { box-sizing: border-box; }
+	
+	body
+		{
+			background-color: #FFFFFF;
+			color:#000000;
+			font-family: Trebuchet MS, sans serif;	
+		}
+		
+	.wrapper
+		{
+			width: 1400px;
+			margin: auto;
+		}
+
+	h1
+		{
+			font-family: Myriad Web Pro, Trebuchet MS, san serif; 
+		}
+	
+	a
+		{
+			text-decoration: none;
+			font-family: Myriad Web Pro, sans serif;
+			padding: 10px 5px 10px 5px;
+		}	
+	
+	.button 
+		{
+			background-color: #13a89e; 
+			border: none;
+			color: #ffffff;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: bold;		
+		}
+		
+	.button:link {background-color:#13a89e; color: #ffffff;}
+		
+	.button:hover {background-color: #8cc63f; color: #ffffff;}
+		
+	.button:visited {background-color:#13a89e; color: #ffffff;}
+		
+	.button:active {background-color: #13a89e; color: #ffffff;}
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*HEADER PROPERTIES*/
+	/*header dimension: height: 448px; width: 1400px*/	
+	header 
+		{		
+			background-image:url("images/header-home.png");
+			background-color: #000000;
+			background-repeat: repeat-x;
+			color: #ffffff;
+			text-align: center; 
+			padding: 50px 50px 0px 50px;
+			height: 448px;			
+		}
+	
+	header h1
+		{
+			 text-shadow: 2px 2px #000000;
+			 letter-spacing: 1px;
+			 word-spacing: 3px;
+			 font-size: 50px;
+			 margin-top: 2px;
+			 font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+		}
+	
+	header p
+		{
+			 margin-top: 5px;
+			 letter-spacing: 1px;
+			 font-size: 25px; 
+			 font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			 text-shadow: 2px 2px #000000;
+		}
+		
+	.top-panel 
+		{
+			
+			/*background-color: #004010;*/
+			margin: -50px -50px 0px 0px;
+			padding: 10px 10px 10px 10px;
+			float: right;
+			height: 40px;
+			width: 475px;
+			text-align: right;
+				
+		}
+	
+	.top-panel-left
+		{
+			/*background-color: #e2a43c;*/
+			padding: auto;
+			width: 300px;
+			float: left;
+		}
+	
+	.top-panel-right
+		{
+			/*background-color: #664d00;*/
+			padding: auto;
+			width: 150px;
+			float: right;
+		}
+		
+	.stats 
+		{
+			margin: 0px auto 30px auto;
+			width: 600px;
+			height: 100px;
+			/*background-color: #e2a43c;*/
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;	
+		}
+		
+	.stats-right
+		{
+			width: 250px;
+			height: 100px;
+			/*background-color: #8cc63f;*/	
+			float: right;
+			padding: 10px 5px 5px 5px;
+		}
+	
+	.stats-left
+		{
+			width: 250px;
+			height: 100px;
+			/*background-color: #13a89e;*/			
+			float: left;
+			padding: 10px 5px 5px 5px;
+			
+		}
+		
+	.stats .stats-right p, .stats .stats-left p  
+		{	
+			font-size: 25px;
+			text-shadow: none;
+			line-height: 2px;
+			font-weight: bold;
+		}
+		
+	.stats .stats-right .label, .stats .stats-left .label  
+		{	
+			font-size: 25px;
+			text-shadow: none;
+			line-height: 2px;
+			font-weight: normal;
+		}
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/*NAVIGATION PROPERTIES*/
+	/*navigation dimension: height: 40x; width: 1400px*/	
+	nav
+		{
+			background-color: #000000; 
+			color: #13a89e;
+			padding: 10px 5px 10px 5px;
+			text-align: center;	
+		}
+		
+	nav ul
+		{
+			list-style-type: none;
+			display: inline;
+		}
+	
+	nav li
+		{
+			display: inline;
+			margin: 30px;
+			
+		}
+	
+	nav a:link {color: #13a89e;}
+	nav a:visited {background-color:#13a89e; color: #13a89e;}
+	nav a:hover {background-color:#8cc63f; color: #ffffff;}
+	nav a:active {background-color:#13a89e; color: #ffffff;}	
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/*MAIN PROPERTIES*/
+	/*main dimension: height: may vary; width: 1400px*/		
+	main 
+		{		
+			color: #FFFFFF;
+			
+		}	
+		
+	main a:link {color: #13a89e;}
+	main a:visited {background-color:#13a89e; color: #13a89e;}
+	main a:hover {background-color:#8cc63f; color: #ffffff;}
+	main a:active {background-color:#13a89e; color: #ffffff;}
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/* BLURB PROPERTIES */
+	/* height: 350px	width: 1400px */		
+	.blurb 
+		{		
+			
+			background-color: #ffffff;
+			height: 350px;
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;	
+			color: #000000;
+		}
+		
+	.blurbpar 
+		{		
+			float: left;
+			width: 50%;
+			height: 350px;
+			padding: 25px 25px 25px 25px;
+			text-align: center;		
+		}
+		
+	.blurbpar p
+		{
+			line-height:25px;
+			text-align: center;
+			margin: 25px 35px 25px 35px;
+			word-spacing: 0px;
+			letter-spacing: 0px;
+			color: #000000;
+			font-family: Calibri, sans serif;
+			font-size: 15px;
+		}
+		
+	.blurbvideo 
+		{		
+			float: right;
+			width: 50%;
+			height: 350px;
+			padding: 25px 25px 25px 25px;
+			text-align: center;	
+		}
+		
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/* PROGRAM PACKAGES PROPERTIES */
+	/* height: 450px	width: 1400px */
+	.programpackages 
+		{		
+			background-image:url("images/boat.png");
+			height: 450px;
+			padding: 10px 50px 10px 50px;
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			text-align: center;
+		}
+	
+	.programpackages li
+		{
+			display: inline;
+			text-align: center;
+			margin-right: 0px;
+		}
+		
+	.programpackages h1	
+		{
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			text-align:left;
+		}
+		
+	.programpackages h3	
+		{
+			font-family: Calibri, sans serif; 
+			line-height: 0.5px; 
+			font-weight: normal; 
+			margin-top:0px;  
+			text-align:left;
+		}
+		
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/* SHORT COURSES PROPERTIES */
+	/* height: 500px	width: 1400px */	
+	.shortcourses 
+		{		
+			background-color: #ffffff;
+			height: 500px;
+			padding: 5px 50px 5px 50px;
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			text-align: center;
+		}
+		
+	.shortcourses h1	
+		{
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			text-align:left;
+			color: #000000;
+		}
+		
+	.shortcourses h3	
+		{
+			font-family: Calibri, sans serif; 
+			line-height: 0.5px; 
+			font-weight: normal; 
+			margin-top:0px;  
+			text-align:left;
+			color:#000000;
+		}
+		
+	.shortcourses ul
+		{
+			text-align: center;	
+		}
+		
+	.shortcourses li
+		{
+			display: inline;
+			text-align: center;
+			margin-right: 0px;
+			margin: 20px 20px 20px 20px;	
+		}
+		
+		
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/* PHOTOTOUR PROPERTIES */
+	/* height: 550px	width: 1400px */		
+	.phototour
+		{		
+			background-image:url("images/road.png");
+			height: 550px;
+			padding: 40px 50px 10px 50px;
+			font-family: Verdana, sans serif;
+		}
+		
+	.tourdesc
+		{
+			width: 30%;
+			height: 100%;
+			float: left;
+			color: #000000;
+			padding: 30px 75px 30px 0px;
+			text-align: left;
+			
+		}
+	
+	.tourdesc h3	
+		{
+			font-family: Calibri, sans serif; 
+			line-height: 25px; 
+			font-weight: normal; 
+		}
+		
+	.tourschedtitle h2
+		{
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			color: #000000; 
+			text-align: left; 
+			margin-left: 20px; 
+		}
+	
+	.events
+		{
+			background-image:url("images/panel.png");
+			width: 70%;
+			float: right;		
+		}
+
+	.events table
+		{
+			font-size: 13px;
+			border-collapse: collape;
+			border-spacing: 7px 15px;
+			border: 0px;
+			text-align: center;
+		}
+				
+	.events tr:nth-of-type(even)
+		{
+			background-color:#8cc63f; 
+			color: #000000;
+		}
+
+
+
+
+
+	/*****************************************************/
+	/*****************************************************/
+	/* TESTIMONIAL PROPERTIES */
+	/* height: 450px	width: 1400px */			
+
+	.testimonial
+		{
+			height: 450px;
+			background-color: #ffffff;
+			color: #000000;
+			padding: 50px 50px 50px 50px;
+			text-align: center;	
+			line-height: 35px;
+		}
+		
+	.quote
+		{
+			width: 33.33%;			
+			float: left;
+			padding: 20px 20px 20px 20px;
+			height: 250px;	
+		}
+	
+	.quote p
+		{
+			 font-family: Palatino Linotype, Palatino; 
+			 font-style: italic; 
+			 font-size: 20px; 
+			 line-height: 30px;			 
+			 height: 100px;
+			 
+		}
+	
+	.source p
+		{
+			margin-bottom: 10px;
+			font-style: normal;
+			font-family: Myriad Pro, sans serif; 
+			text-align: center;
+			font-size: 17px;
+			line-height: 25px;
+		}
+	
+	
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/* FOOTER PROPERTIES */
+	/* height: 400px	width: 1400px */		
+		
+	footer
+		{
+			background-image:url("images/black_lake.png");
+			background-color:#000000; 
+			color: #ffffff;
+			height: 400px;
+			padding: 25px 25px 25px 25px;
+			text-align:center;
+		}
+	
+	footer a
+		{
+			text-decoration:none;
+			color: #ffffff;
+			padding:0px;
+		}	
+		
+	.footer-top
+		{
+			/*background-color: green;*/
+			height: 10%;
+			padding-top:1px;
+		}
+			
+	.footer-bottom
+		{
+			/*background-color: yellow;*/
+			height: 90%;
+		}
+		
+	.quicklinks
+		{
+			/*background-color: blue;*/
+			float: left;
+			height: 100%;
+			width: 20%;
+			padding: 0px; 	
+		}
+		
+	.quicklinks h1
+		{
+			font-family: Myriad Web Pro; 
+			color: #cccccc; 
+			text-align: left; 
+			margin-top:0px;
+		}
+		
+	.quicklinks li
+		{
+			text-align: left;
+		}
+		
+	.quicklinks ul
+		{
+			list-style-type: none;
+			padding-left: 0px;	
+		}
+		
+	.quicklinks a
+		{
+			font-weight: normal;
+		}
+		
+	.footer-bottom-right
+		{
+			/*background-color: lightblue;*/
+			float: right;
+			height: 100%;
+			width: 80%;
+			padding: 0px;
+		}
+	
+	.contact
+		{
+			/*background-color: red;*/
+			height: 40%;
+			margin: auto;
+			padding: 0px;
+		}
+		
+	.contact h2
+		{
+			 font-family: Myriad Web Pro; 
+			 color: #cccccc; 
+			 text-align: left; 
+			 margin:0px 0px 15px 0px;
+			 
+		}	
+		
+	.contact-panel
+		{
+			padding: 0px 5px 0px 5px;
+			/*background-color: green;*/
+			width: 25%;
+			height: 70%;
+			text-align: left;
+			font-family: Calibri, sans serif;
+			float: left;
+		}
+		
+	.social
+		{
+			/*background-color: pink;*/
+			height: 20%;
+			margin: auto;
+			padding: 0px;
+			text-align: left;
+		}
+		
+	.social li
+		{
+			list-style-type: none;
+			display: inline;
+			margin-right:75px;
+			
+		}
+		
+	.social ul
+		{
+			margin:0px;
+			padding:0px;
+		}
+		
+	.internationaloffices
+		{
+			/*background-color: red;*/
+			height: 30%;
+			margin: auto;
+			padding: 10px 0px 0px 0px;
+			text-align: left;
+		}
+		
+	.internationaloffices h4
+		{
+			font-family: Myriad Web Pro; 
+			color: #cccccc; 
+			text-align: left; 
+			margin:0px;
+		}	
+		
+	.internationaloffices ul
+		{
+			list-style-type:none; 
+			padding: 0px;
+		}
+		
+	.internationaloffices li
+		{
+			list-style-type: none;
+			display: inline;
+			margin-right:20px;
+			font-size:small;
+		}
+		
+	.copyright
+		{
+			/*background-color: pink;*/
+			height: 10%;
+			margin: auto;
+			padding: 10px 0px 5px 0px;
+			font-family: Calibri, sans serif;
+			font-size: small;
+			text-align:left;
+		}
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	@media only screen and (max-width: 800px) /*changes property of header when browser is resized*/
+		{
+			
+			
+		}

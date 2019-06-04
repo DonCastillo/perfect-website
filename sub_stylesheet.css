@@ -1,0 +1,792 @@
+	
+	
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*UNIVERSAL PROPERTIES*/
+	/*website dimension: 1400px*/
+	  * { box-sizing: border-box; }
+	
+	body
+		{
+			background-color: #FFFFFF;
+			color:#000000;
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;	
+		}
+		
+	.wrapper
+		{
+			width: 1400px;
+			margin: auto;
+		}
+
+	h1, h2
+		{
+			font-family: Myriad Web Pro, Trebuchet MS, san serif; 
+		}
+		
+	
+		
+	p	
+		{
+			line-height: 25px;
+			font-family: Calibri, sans serif;
+			letter-spacing: 0px;
+			word-spacing: -1px;
+		}	
+	
+	a
+		{
+			text-decoration: none;
+			font-family: Myriad Web Pro, sans serif;
+			padding: 10px 5px 10px 5px;
+		}	
+	
+	.button 
+		{
+			background-color: #13a89e; 
+			border: none;
+			color: #ffffff;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: bold;		
+		}
+		
+	.button:link {background-color:#13a89e; color: #ffffff;}
+		
+	.button:hover {background-color: #8cc63f; color: #ffffff;}
+		
+	.button:visited {background-color:#13a89e; color: #ffffff;}
+		
+	.button:active {background-color: #13a89e; color: #ffffff;}
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*HEADER PROPERTIES*/
+	/*header dimension: height: 448px; width: 1400px*/	
+	header 
+		{		
+			
+			background-color: #000000;
+			background-repeat: repeat-x;
+			color: #ffffff;
+			text-align: center; 
+			padding: 50px 50px 0px 50px;
+			height: 448px;			
+		}
+	
+	header h1
+		{
+			 text-shadow: 2px 2px #000000;
+			 letter-spacing: 1px;
+			 word-spacing: 3px;
+			 font-size: 50px;
+			 margin-top: 2px;
+			 font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+		}
+	
+	header p
+		{
+			 margin-top: 5px;
+			 letter-spacing: 1px;
+			 font-size: 25px; 
+			 font-family: Myriad Web Pro, Trebuchet MS, sans serif;
+			 text-shadow: 2px 2px #000000;
+		}
+		
+	.top-panel 
+		{
+			
+			/*background-color: #004010;*/
+			margin: -50px -50px 0px 0px;
+			padding: 10px 10px 10px 10px;
+			float: right;
+			height: 40px;
+			width: 475px;
+			text-align: right;
+				
+		}
+	
+	.top-panel-left
+		{
+			/*background-color: #e2a43c;*/
+			padding: auto;
+			width: 300px;
+			float: left;
+		}
+	
+	.top-panel-right
+		{
+			/*background-color: #664d00;*/
+			padding: auto;
+			width: 150px;
+			float: right;
+		}
+		
+	.stats 
+		{
+			margin: 0px auto 30px auto;
+			width: 600px;
+			height: 100px;
+			/*background-color: #e2a43c;*/
+			font-family: Myriad Web Pro, Trebuchet MS, sans serif;	
+		}
+		
+	.stats-right
+		{
+			width: 250px;
+			height: 100px;
+			/*background-color: #8cc63f;*/	
+			float: right;
+			padding: 10px 5px 5px 5px;
+		}
+	
+	.stats-left
+		{
+			width: 250px;
+			height: 100px;
+			/*background-color: #13a89e;*/			
+			float: left;
+			padding: 10px 5px 5px 5px;
+			
+		}
+		
+	.stats .stats-right p, .stats .stats-left p  
+		{	
+			font-size: 25px;
+			text-shadow: none;
+			line-height: 2px;
+			font-weight: bold;
+		}
+		
+	.stats .stats-right .label, .stats .stats-left .label  
+		{	
+			font-size: 25px;
+			text-shadow: none;
+			line-height: 2px;
+			font-weight: normal;
+		}
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/*NAVIGATION PROPERTIES*/
+	/*navigation dimension: height: 40x; width: 1400px*/	
+	nav
+		{
+			background-color: #000000; 
+			color: #13a89e;
+			padding: 10px 5px 10px 5px;
+			text-align: center;	
+		}
+		
+	nav ul
+		{
+			list-style-type: none;
+			display: inline;
+		}
+	
+	nav li
+		{
+			display: inline;
+			margin: 30px;
+			
+		}
+	
+	nav a:link {color: #13a89e;}
+	nav a:visited {background-color:#13a89e; color: #13a89e;}
+	nav a:hover {background-color:#8cc63f; color: #ffffff;}
+	nav a:active {background-color:#13a89e; color: #ffffff;}	
+		
+		
+		
+		
+	/*****************************************************/
+	/*****************************************************/
+	/*MAIN PROPERTIES*/
+	/*main dimension: height: may vary; width: 1400px*/		
+	main 
+		{		
+			color: #000000;
+			
+		}	
+		
+		
+	main a:link {color: #13a89e;}
+	main a:visited {background-color:#13a89e; color: #13a89e;}
+	main a:hover {background-color:#8cc63f; color: #ffffff;}
+	main a:active {background-color:#13a89e; color: #ffffff;}
+		
+	main ul, main ol	
+		{
+			line-height: 25px;
+			font-family: Calibri, sans serif;
+			letter-spacing: 0px;
+			word-spacing: -1px;
+		}	
+	
+	
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*BREADCRUMBS PROPERTIES*/
+	/*main dimension: height: 20px width: 1400px*/		
+	.breadcrumbs
+	{
+		background-color:#ffffff;
+		height: 75px;
+		padding: 40px 25px 10px 25px;
+	}
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/*CONTENT PROPERTIES*/
+	/*main dimension: height: 2000px width: 1400px*/	
+	.content
+	{
+		background-color:#ffffff;
+		/*height: 2000px;*/
+		padding: 50px 50px 50px 50px;
+	}
+	
+	.form 
+	{
+		background-color:#ffffff;
+		padding: 25px;
+		width: 60%;
+		margin: 50px auto 15px auto;
+		height: 1100px;
+	}
+		
+	/*.form table
+	{
+		background-color:#ffffff;
+		font-size: 15px;
+		border-collapse: collape;
+		border-spacing: 5px 5px;
+		border: 0px;
+	}
+	.form tr
+	{
+		height: 30px;
+	}
+	
+	table .photoexp td
+	{
+		border-spacing:10px 5px 10px 5px;
+		font-family: Calibri;
+		font-size: 10px;
+	}
+	.form label
+	{
+		font-weight: bold;
+		text-align: right;
+		font-family: Calibri, sans serif;
+		margin-left: 25px;
+	}*/
+		
+	.form h2
+	{
+		color: #000000;
+	}
+	
+	
+		
+	hr 
+	{ 
+		margin:-15px 0px 20px 0px;
+		border-style: solid;
+		border-width: 5px;
+		color:#13a89e;
+		width: 100%;
+		
+	}
+	
+	input
+	{
+		border-style: solid;
+		border-width: 1px;
+		padding: 1px;
+		border-color: #888888;
+	}
+		
+	/* programs.html */
+	.progpanel
+	{
+		padding: 20px;
+		height: 450px;
+		width: 1200px;
+		background-color: #ffffff;
+		margin: auto;
+	}
+	.progthumb
+		{
+			padding: 20px;
+			float:left;
+			width: 20%;
+			background-color: #ffffff;
+		}
+		
+	.progdetail
+		{
+			padding: 5px 20px 20px 20px;
+			float:left;
+			width: 80%;
+			background-color: #ffffff;
+		}
+		
+		
+	/* shortcourses.html */	
+	.shortcourses-panel
+		{
+			
+			width: 930px;
+			height: 350px;
+			margin: auto;
+			padding: 0px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			
+		}
+	.shortcourses-whitelayer
+		{
+			
+			width: 45%;
+			height: 85%;
+			padding: 25px;
+			background-image:url('images/whitelayer.png');
+			
+		}	
+	
+	
+
+	/* admission.html */
+	.admissionprocess 
+		{
+			margin-bottom: 200px;
+		}
+	.admissionprocess li
+		{
+			padding: 10px 70px 10px 30px;
+		}
+	
+	
+	
+	
+	/* curriculum */
+	.curriculum
+		{
+			padding: 10px 10px 0px 40px;
+			height: 550px;
+			width: 65%;
+			background-color: #ffffff;
+		}
+	
+	.curriculum .subj
+		{
+			padding-left: 30px;
+			background-color: #ffffff;
+		}
+	
+	.curriculum .code
+		{
+			font-weight: bold;
+			float:left;
+			height: 100%;
+			width: 15%;
+			background-color: #ffffff;
+		}
+		
+	.curriculum .desc
+		{
+			float:left;
+			height: 100%;
+			width: 85%;
+			background-color: #ffffff;
+		}
+	
+	.curriculum p { margin-top: 0px; }
+	
+	
+	
+	
+	
+	
+	/* contact us */
+	.contact-info
+		{
+			background-color: #ffffff;
+			height: 500px;
+			padding: 20px 30px 20px 30px;
+		}
+		
+	.contact-sub
+		{
+			background-color: #ffffff;
+			float: left;
+			width: 50%;
+			height: 100%;
+			padding: 10px 20px 10px 20px;
+		}
+	
+	.contact-sub h3,
+	.contact-sub h4	
+		{ 
+			margin-top: 30px; 
+			margin-bottom: 0px; 
+		}
+		
+	.contact-info p,
+	.contact-intoffice p
+		{ 
+			font-family: Calibri, sans serif;
+			margin: 0px 0px 0px 10px;
+			
+		}
+			
+		
+	.contact-intoffice
+		{
+			background-color: #ffffff;
+			height: 825px;
+			padding: 5px 30px 20px 30px;
+		}
+		
+		
+	.contact-messageus
+		{
+			background-color: #ffffff;
+			height: 575px;
+			width: 50%;
+			padding: 20px 30px 20px 30px;
+			
+		}
+	
+	.contact-messageus form
+		{
+			font-family: Calibri, sans serif;
+		}
+	
+	
+	
+	input[type=text], 
+	input[type=email],
+	input[type=date],
+	input[type=password]
+		{
+			width: 100%;
+			padding: 6px 10px;
+			margin: 2.5px 5px 15px 0px;
+			box-sizing: border-box;
+		}
+		
+	select 
+		{
+			width: 100%;
+			padding: 6px 10px;
+			margin: 2.5px 5px 15px 0px;
+			box-sizing: border-box;
+			font-size: 15px;
+		}
+		
+	option
+		{
+			padding: 5px 0px 5px 0px;
+			font-size: 15px;
+		}
+		
+	.contact-messageus label
+		{
+			font-weight: bold;
+		}
+	
+	.contact-messageus textarea
+		{
+			width: 100%;
+			height: 200px;
+			padding: 6px 10px;
+			resize:none;
+		}
+		
+		
+		
+	/* book for photo tour */
+	.charge-panel
+		{
+			background-color: #ffffff;
+			width: 90%; /*25%*/
+			height: 290px;
+			margin: auto;
+			padding: 0px 25px 0px 25px;
+			
+		}
+	
+	.charge-box
+		{
+			float: left;
+			width: 25%;
+			height: 100%;
+			background-color: #ffffff;
+			border: 15px solid #8cc63f;
+			margin: 0px 4%;
+			text-align: center;
+			padding: 30px;
+			
+		}
+	
+	.charge-box h3, h5
+		{
+			
+			margin-top: 60px;
+		}
+	
+	.phototourform-panel
+		{
+			background-color: #ffffff;
+			height: 1050px;
+			width: 60%;
+			margin: 50px auto 15px auto;
+			padding: 25px;
+		}
+	
+	
+	
+	
+	
+	.instant-panel
+		{
+			background-image:url('images/wall.png');
+			width: 1400px;
+			height: 175px;
+			margin: auto;
+			
+		}	
+	.instant-panel-blurb
+		{
+			padding: 50px 25px 50px 25px;
+			float: left;
+			width: 55%;
+			height: 100%;
+			text-align: right;
+			color: #ffffff;
+			 text-shadow: 2px 2px #000000;
+			 
+			 font-size: 20px;
+			/*background-color: #e2a43c;*/
+		}
+	.instant-panel-button
+		{
+			padding: 65px 25px 50px 25px;
+			float: right;
+			width: 45%;
+			height: 100%;
+			/*background-color: ##8cc63f;*/
+			/*background-color: ##d6d6d6;*/
+			text-align: left;
+		}	
+	
+		
+		
+		
+		
+
+	
+	
+	
+	/*****************************************************/
+	/*****************************************************/
+	/* FOOTER PROPERTIES */
+	/* height: 400px	width: 1400px */		
+		
+	footer
+		{
+			background-image:url("images/black_lake.png");
+			background-color:#000000; 
+			color: #ffffff;
+			height: 400px;
+			padding: 25px 25px 25px 25px;
+			text-align:center;
+		}
+	
+	footer a
+		{
+			text-decoration:none;
+			color: #ffffff;
+			padding:0px;
+		}	
+		
+	.footer-top
+		{
+			/*background-color: green;*/
+			height: 10%;
+			padding-top:1px;
+		}
+			
+	.footer-bottom
+		{
+			/*background-color: yellow;*/
+			height: 90%;
+		}
+		
+	.quicklinks
+		{
+			/*background-color: blue;*/
+			float: left;
+			height: 100%;
+			width: 20%;
+			padding: 0px; 	
+		}
+		
+	.quicklinks h1
+		{
+			font-family: Myriad Web Pro; 
+			color: #cccccc; 
+			text-align: left; 
+			margin-top:0px;
+		}
+		
+	.quicklinks li
+		{
+			text-align: left;
+		}
+		
+	.quicklinks ul
+		{
+			list-style-type: none;
+			padding-left: 0px;	
+		}
+		
+	.quicklinks a
+		{
+			font-weight: normal;
+		}
+		
+	.footer-bottom-right
+		{
+			/*background-color: lightblue;*/
+			float: right;
+			height: 100%;
+			width: 80%;
+			padding: 0px;
+		}
+	
+	.contact
+		{
+			/*background-color: red;*/
+			height: 40%;
+			margin: auto;
+			padding: 0px;
+		}
+		
+	.contact h2
+		{
+			 font-family: Myriad Web Pro; 
+			 color: #cccccc; 
+			 text-align: left; 
+			 margin:0px 0px 15px 0px;
+			 
+		}	
+		
+	.contact-panel
+		{
+			padding: 0px 5px 0px 5px;
+			/*background-color: green;*/
+			width: 25%;
+			height: 70%;
+			text-align: left;
+			font-family: Calibri, sans serif;
+			float: left;
+		}
+		
+	.social
+		{
+			/*background-color: pink;*/
+			height: 20%;
+			margin: auto;
+			padding: 0px;
+			text-align: left;
+		}
+		
+	.social li
+		{
+			list-style-type: none;
+			display: inline;
+			margin-right:75px;
+			
+		}
+		
+	.social ul
+		{
+			margin:0px;
+			padding:0px;
+		}
+		
+	.internationaloffices
+		{
+			/*background-color: red;*/
+			height: 30%;
+			margin: auto;
+			padding: 10px 0px 0px 0px;
+			text-align: left;
+		}
+		
+	.internationaloffices h4
+		{
+			font-family: Myriad Web Pro; 
+			color: #cccccc; 
+			text-align: left; 
+			margin:0px;
+		}	
+		
+	.internationaloffices ul
+		{
+			list-style-type:none; 
+			padding: 0px;
+		}
+		
+	.internationaloffices li
+		{
+			list-style-type: none;
+			display: inline;
+			margin-right:20px;
+			font-size:small;
+		}
+		
+	.copyright
+		{
+			/*background-color: pink;*/
+			height: 10%;
+			margin: auto;
+			padding: 10px 0px 5px 0px;
+			font-family: Calibri, sans serif;
+			font-size: small;
+			text-align:left;
+		}
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	@media only screen and (max-width: 800px) /*changes property of header when browser is resized*/
+		{
+			
+			
+		}
